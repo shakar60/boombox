@@ -25,6 +25,13 @@ Toggle.Draggable = true
 Toggle.MouseButton1Click:connect(function()
   Library:ToggleUI()
 end)
+--Credit
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "Boombox Gui Loaded"; 
+Text = "Toggle Ui Added by shakar#6955"; 
+Duration = 5; 
+})
 
 -- Modded Pineapple (very sexy)
  
